@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  accept_roles: admin
+  branch: develop
+
+media_folder: static/media
+public_folder: /media
+
+collections:
+  - name: pages
+    label: Pages
+    folder: content/pages
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - {
+          label: Is Draft?,
+          name: isDraft,
+          widget: boolean,
+          default: false,
+          required: true,
+          hint: Turn this on to save it as draft and turn off to publish it on live,
+        }
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Meta Description, name: metaDescription, widget: text }
+      - { label: Body, name: body, widget: markdown }
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - {
+          label: Is Draft?,
+          name: isDraft,
+          widget: boolean,
+          default: false,
+          required: true,
+          hint: Turn this on to save it as draft and turn off to publish it on live,
+        }
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Publish Date, name: publishDate, widget: datetime }
+      - { label: Meta Description, name: metaDescription, widget: text }
+      - label: Tags
+        name: tags
+        widget: relation
+        collection: tags
+        valueField: title
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: Cover Image of post
+        name: coverImage
+        widget: object
+        fields:
+          - { label: Label, name: label, widget: string, required: true }
+          - {
+              label: Image,
+              name: url,
+              widget: image,
+              required: true,
+              allow_multiple: false,
+            }
+      - { label: Body, name: body, widget: markdown }
+  - name: tags
+    label: Tags
+    folder: content/tags
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - { label: Title, name: title, widget: string, required: true }

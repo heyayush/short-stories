@@ -1,0 +1,107 @@
+{
+  "name": "sanjay-ujjaini",
+  "private": true,
+  "description": "Blog of Sanjay Sharma from Ujjain",
+  "version": "0.1.0",
+  "author": "Ayush Sharma <hey.ayush.sharma@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,scss,json,md}\"",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "yarn run lint-es && yarn run lint-css",
+    "lint-es": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "lint-css": "stylelint \"src/**/*.scss\" \"src/**/*.html\"",
+    "lint-css:fix": "stylelint \"src/**/*.scss\" \"src/**/*.html\" --fix",
+    "deploy": "yarn run build && netlify deploy --prod"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "babel-plugin-styled-components": "^1.10.7",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.24.52",
+    "gatsby-awesome-pagination": "^0.3.5",
+    "gatsby-image": "^2.2.40",
+    "gatsby-plugin-catch-links": "^2.1.25",
+    "gatsby-plugin-emotion": "^4.1.22",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.4.26",
+    "gatsby-plugin-netlify-cms": "^4.3.12",
+    "gatsby-plugin-offline": "^3.2.26",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sharp": "^2.6.32",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typescript": "^2.4.18",
+    "gatsby-remark-autolink-headers": "^2.1.24",
+    "gatsby-remark-prismjs": "^3.3.31",
+    "gatsby-source-filesystem": "^2.3.27",
+    "gatsby-transformer-remark": "^2.8.31",
+    "gatsby-transformer-sharp": "^2.5.14",
+    "lodash": "^4.17.15",
+    "netlify-cms-app": "^2.12.19",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "prismjs": "^1.19.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.2",
+    "@types/react": "^16.9.48",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "gatsby-cli": "^2.12.90",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "moment": "^2.24.0",
+    "netlify-cli": "^2.59.1",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.18.0",
+    "typescript": "^4.0.2",
+    "yarn": "^1.22.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyayush/sanjay-ujjaini"
+  },
+  "bugs": {
+    "url": "https://github.com/heyayush/sanjay-ujjaini/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,scss}": [
+      "yarn run format",
+      "yarn run lint && exit 0",
+      "git add"
+    ]
+  }
+}
