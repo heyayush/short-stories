@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   accept_roles: admin
-  branch: develop
+  branch: master
 
 media_folder: static/media
 public_folder: /media

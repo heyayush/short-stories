@@ -42,11 +42,14 @@ const Title = styled.h1`
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  line-height: 1.5;
 `
 
 const Hero = (props) => (
   <Wrapper height={props.height}>
-    {props.image && props.image.fluid && <BgImg fluid={props.image.fluid} backgroundColor={'#eeeeee'} />}
+    {props.image && props.image.fluid && (
+      <BgImg fluid={props.image.fluid} backgroundColor={'#c0c0c0'} imgStyle={{ objectFit: 'fill' }} />
+    )}
     <Title>{props.title}</Title>
   </Wrapper>
 )

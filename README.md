@@ -1,6 +1,6 @@
-# Personal blog of Sanjay Sharma
+# Collection of short stories by Ayush Sharma
 
-Popularly known as Sanjay Ujjaini
+Popularly known as Bittu bhiya
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dbc3d738-c943-4eea-ac60-b3df52c95b2a/deploy-status)](https://app.netlify.com/sites/photoarts/deploys)
 

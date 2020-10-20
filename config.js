@@ -2,9 +2,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'My Dreams | Personal blog of John Sharma',
-    description: 'Blog of John Sharma from Ujjain',
-    author: 'John Sharma',
+    title: 'Short stories collection | Blog by Ayush Sharma',
+    description: 'Blog by Ayush Sharma for collecting short stories',
+    author: 'Ayush Sharma',
     favicon: '/logo.png',
     siteUrl: 'https://heyayush.com',
     image: '/images/share.jpg',
@@ -27,9 +27,9 @@ module.exports = {
     basePath: '/',
   },
   siteManifest: {
-    name: 'John Sharma',
-    short_name: 'John Ujjaini',
-    description: 'Personal blog John Sharma from Ujjain aka John Ujjaini',
+    name: 'Short Stories',
+    short_name: 'Short Stories',
+    description: 'Blog by Ayush Sharma for collecting short stories',
     start_url: '/',
     background_color: '#ffffff',
     theme_color: '#ffffff',
