@@ -68,7 +68,7 @@ const Posts = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query($skip: Int!, $limit: Int!) {
+  query ($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter: { fields: { type: { eq: "POST" } }, frontmatter: { isDraft: { eq: false } } }
       sort: { fields: frontmatter___publishDate, order: DESC }

@@ -42,13 +42,14 @@ const Title = styled.h1`
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  line-height: 1.5;
 `
 
 const Hero = (props) => {
   return (
     <Wrapper height={props.height}>
       {props.image && props.image && (
-        <BgImg image={props.image.gatsbyImageData} alt={props.title} backgroundColor={'#eeeeee'} />
+        <BgImg image={props.image.gatsbyImageData} alt={props.title} backgroundColor={'#606060'} objectFit="contain" />
       )}
       <Title>{props.title}</Title>
     </Wrapper>

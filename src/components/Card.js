@@ -80,7 +80,12 @@ const Card = ({
     <>
       <Post featured={featured}>
         <Link to={slug}>
-          <StyledImg image={coverImage.url.gatsbyImageData} alt={coverImage.label} backgroundColor={'#eeeeee'} />
+          <StyledImg
+            image={coverImage.url.gatsbyImageData}
+            alt={coverImage.label}
+            backgroundColor={'#eeeeee'}
+            objectFit={featured ? 'contain' : 'cover'}
+          />
           <Title>{title}</Title>
           <Date>{publishDate}</Date>
           <ReadingTime>{timeToRead} min read</ReadingTime>

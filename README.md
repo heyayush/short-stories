@@ -18,3 +18,7 @@ Popularly known as Bittu bhiya
 ### Compression
 
 - Use of tinypng or tinyjpg to compress the images before uploading them on the admin panel or on cloudinary.
+
+## Project specific changes
+**Card.js** - objectFit={featured ? 'contain' : 'cover'} and bg color
+**Hero.js** - objectFit="contain" and bg color

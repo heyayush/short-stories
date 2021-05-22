@@ -52,7 +52,7 @@ const PostTemplate = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query($slug: String!, $coverImageRelativePath: String!) {
+  query ($slug: String!, $coverImageRelativePath: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
