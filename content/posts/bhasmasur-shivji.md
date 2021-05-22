@@ -7,7 +7,6 @@ coverImage:
   url: /media/bhasmasur.jpg
 tags:
   - Cultural
-  - Story
 metaDescription: Bhasmasur, Shiva, short story, hindi, Vishnu, Mohini
 ---
 

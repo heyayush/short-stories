@@ -7,7 +7,6 @@ coverImage:
   url: /media/sita-sisters.jpg
 tags:
   - Cultural
-  - Story
 metaDescription: Ramayan, Raja Janak, Ram, Lakshman, Sita, Bharat, Shatrughn, Hanuman, Kaushalya, Urmila, Shrutkirti, Sumitra, Mandvi, Vanvas
 ---
 

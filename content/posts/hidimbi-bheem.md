@@ -7,7 +7,6 @@ coverImage:
   url: /media/hidimbi4.jpg
 tags:
   - Cultural
-  - Story
 metaDescription: Hidimbi, Hidimba, Bheem, Bhim, Mahabharat, stories, Pandavas, Ghatotkach
 ---
 
