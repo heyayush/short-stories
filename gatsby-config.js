@@ -1,17 +1,9 @@
 /* eslint-disable */
 'use strict'
 
-let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || 'development'
-
-console.log(`Using environment config: '${activeEnv}'`)
-
-require('dotenv').config({
-  path: `.env.${activeEnv}`,
-})
-
 const siteConfig = require('./config.js')
 const meta = siteConfig.siteMetadata
-const manifest = siteConfig.manifest
+const manifest = siteConfig.siteManifest
 
 module.exports = {
   siteMetadata: { ...meta },
@@ -24,30 +16,10 @@ module.exports = {
         allExtensions: true, // defaults to false
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content`,
-        name: 'content',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/media`,
-        name: 'images',
-      },
-    },
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sass`,
-    {
-      resolve: 'gatsby-plugin-html-attributes',
-      options: {
-        lang: 'en',
-      },
-    },
+    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-manifest`,
       options: { ...manifest },
@@ -58,7 +30,12 @@ module.exports = {
         precachePages: ['/'],
       },
     },
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-emotion`,
+    'gatsby-plugin-theme-ui',
+    `gatsby-plugin-catch-links`,
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -70,13 +47,26 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-emotion`,
-    'gatsby-plugin-theme-ui',
-    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content`,
+        name: 'content',
+      },
+      __key: 'content',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/media`,
+        name: 'images',
+      },
+      __key: 'images',
+    },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS,
+        trackingId: siteConfig.googleAnalyticsId,
       },
     },
   ],

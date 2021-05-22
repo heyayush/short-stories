@@ -1,8 +1,6 @@
 /* eslint-disable */
 'use strict'
 
-// require('./src/theme/index.scss')
-
 exports.onClientEntry = () => {}
 
 exports.onServiceWorkerUpdateReady = () => {

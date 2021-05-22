@@ -1,9 +1,9 @@
 ---
 isDraft: false
-title: Hidimbi Bheem
+title: हिडिम्बी और भीम | Hidimbi and Bheem
 publishDate: '2020-01-01T18:30:00.000Z'
 coverImage:
-  label: Hidimbi Bheem
+  label: Hidimbi and Bheem
   url: /media/hidimbi4.jpg
 tags:
   - Cultural

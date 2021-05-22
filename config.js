@@ -1,5 +1,11 @@
 'use strict'
 
+const activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || 'development'
+
+require('dotenv').config({
+  path: `.env.${activeEnv}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: 'Short stories collection | Blog by Ayush Sharma',
@@ -35,6 +41,7 @@ module.exports = {
     theme_color: '#ffffff',
     display: 'standalone',
     lang: 'en',
-    icon: 'static/logo.jpg',
+    icon: 'static/logo.png',
   },
+  googleAnalyticsId: process.env.GOOGLE_ANALYTICS,
 }

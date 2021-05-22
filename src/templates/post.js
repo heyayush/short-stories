@@ -73,9 +73,7 @@ export const query = graphql`
     }
     file(sourceInstanceName: { eq: "images" }, relativePath: { eq: $coverImageRelativePath }) {
       childImageSharp {
-        fluid(maxWidth: 1000, quality: 80) {
-          ...GatsbyImageSharpFluid_withWebp_noBase64
-        }
+        gatsbyImageData(width: 1000, quality: 80, placeholder: BLURRED)
       }
       sourceInstanceName
       relativePath

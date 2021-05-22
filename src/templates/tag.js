@@ -76,9 +76,7 @@ export const query = graphql`
           relativePath
           sourceInstanceName
           childImageSharp {
-            fluid(maxWidth: 500, quality: 60) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
-            }
+            gatsbyImageData(width: 500, quality: 60, placeholder: BLURRED)
           }
         }
       }

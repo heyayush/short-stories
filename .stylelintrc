@@ -3,9 +3,6 @@
   "rules": {
     "color-named": "never",
     "no-empty-source": null,
-    "selector-pseudo-element-no-unknown": [true, {
-      "ignorePseudoElements": "ng-deep"
-    }]
   },
   "ignoreFiles": [
     "node_modules/*",

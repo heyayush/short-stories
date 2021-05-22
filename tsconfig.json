@@ -16,5 +16,5 @@
     "jsx": "react",
     "downlevelIteration": true
   },
-  "include": ["src", "./config.js", "./gatsby-browser.js", "./gatsby-config.js", "./gatsby-node.js", "functions"]
+  "include": ["src", "./config.js", "./gatsby-browser.js", "./gatsby-config.js", "./gatsby-node.js"]
 }
