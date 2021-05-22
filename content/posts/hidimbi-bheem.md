@@ -26,13 +26,11 @@ metaDescription: Hidimbi, Hidimba, Bheem, Bhim, Mahabharat, stories, Pandavas, G
 
 ![Hidimbi and Bheem](/media/hidimbi5.jpg)
 
-
 ## भीम और हिडिंब के बीच लड़ाई
 
 जब हिडिम्बी लंबे समय तक नहीं लौटी, तो हिडिम्बी उसकी तलाश में गई और उसे भीम से बात करते हुए देखा। “मैंने तुम्हें मानव को मारने के लिए भेजा है और तुम उससे बात कर रहे हो। मैं खुद उसे मार दूंगा। ” इतना कहकर उसने भीम पर हमला कर दिया। भीम द्वारा हिडिम्ब को मारने के बाद एक भयंकर लड़ाई हुई और समाप्त हुई।
 
 ![Hidimbi and Bheem](/media/hidimbi6.jpg)
-
 
 ## शादी का प्रस्ताव
 
@@ -47,7 +45,6 @@ metaDescription: Hidimbi, Hidimba, Bheem, Bhim, Mahabharat, stories, Pandavas, G
 भीम एक शर्त पर उससे विवाह करने को तैयार हो जाता है। “मैं दिन के दौरान आपके साथ अपना समय बिताऊंगा, लेकिन मुझे रात को अपनी माँ और भाइयों के पास वापस जाना होगा। आप हमारी यात्रा में शामिल हो सकते हैं|
 
 ![Hidimbi and Pandavas](/media/hidimbi1.jpg)
-
 
 ## भीम और हिडिम्बी का विवाह
 
@@ -78,7 +75,6 @@ Pandavas were sleeping and Bheem was awake looking for any troubles. Hidimbi com
 She fells in love with Bheem and she assumed the form of a very beautiful lady, approached Bheem and expressed her desire to marry him. She also revealed her true identity and her brother’s intentions.
 
 ![Hidimbi and Bheem](/media/hidimbi5.jpg)
-
 
 ## Fight between Bheem and Hidimb
 
