@@ -23,3 +23,4 @@ Popularly known as Bittu bhiya
 
 **Card.js** - objectFit={featured ? 'contain' : 'cover'} and bg color
 **Hero.js** - objectFit="contain" and bg color
+**PageBody.js** - Line height of ol and li items increased from 1.25 to 1.5
