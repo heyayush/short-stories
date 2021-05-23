@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use strict'
 
 const activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || 'development'
@@ -12,7 +13,6 @@ module.exports = {
     description: 'Blog by Ayush Sharma for collecting short stories',
     author: 'Ayush Sharma',
     favicon: '/logo.png',
-    siteUrl: 'https://heyayush.com',
     image: '/images/share.jpg',
     menuLinks: [
       {
@@ -30,7 +30,12 @@ module.exports = {
     ],
     postsPerFirstPage: 7,
     postsPerPage: 6,
-    basePath: '/',
+    siteUrl: 'https://kahaniyaan.netlify.app',
+    googleSheetsAPI: process.env.GOOGLE_SHEETS_API,
+    contactFormSpreadsheetId: process.env.CONTACT_FORM_SPREADSHEET_ID,
+    contactFormEmailAPI: process.env.CONTACT_FORM_EMAIL_API,
+    contactToEmailAddress: process.env.CONTACT_TO_EMAIL_ADDRESS,
+    contactFromEmailAddress: process.env.CONTACT_FROM_EMAIL_ADDRESS,
   },
   siteManifest: {
     name: 'Short Stories',

@@ -14,6 +14,11 @@ export const useSiteMetadata = () => {
               name
               slug
             }
+            googleSheetsAPI
+            contactFormSpreadsheetId
+            contactFormEmailAPI
+            contactToEmailAddress
+            contactFromEmailAddress
           }
         }
       }
