@@ -22,6 +22,8 @@ In 1556, She badly defeated Baz Bahadur, the ruler of Malwa.
 
 She was ruling quite successfully with the help of her advisors and ministers. She was an exemplary young ruler and a great war tactician who fought against 6 generals and a massive army sent by Mughal ruler Akbar. She showed valour, courage, self-belief, in her battles and gently treated her people like a mother providing all amenities.
 
+She defeated Akbar's army 3 times.
+
 In 1562, Mughal General, Khwaja Abdul Majid Asaf Khan who was plundering central India on orders of Akbar attacked her kingdom.
 Queen fought with them in the battle of Narrai.
 Her son Narayan faught valiantly but got injured. She then came on her elephant. After the intense fight, she was badly injured.
@@ -29,7 +31,10 @@ Her son Narayan faught valiantly but got injured. She then came on her elephant.
 She killed herself on 24th June, 1564 with dagger to avoid getting in the hands of mughals in the battlefield alive. 
 She was an exemplary Queen, an accomplished administrator. 
 
-![Rani Durgavati](/media/durgavati-2.jpg)
+![Rani Durgavati](/media/durgavati-2.jpg 'Rani Durgavati')
 
 > “Better to die with dignity than live without self-respect. I have served my motherland for a long time, and at a time like this, I won’t let it be stained. There is no option but to fight.”
 – Rani Durgavati
+
+There is also a post stamp in her honour.
+![Rani Durgavati post stamp](/media/durgavati-3.jpg 'Post stamp featuring Rani Durgavati')
